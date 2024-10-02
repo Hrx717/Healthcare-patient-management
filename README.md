@@ -22,8 +22,11 @@
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/Hrx717/Tool-netInfo-netInfo-.git
-   cd Tool-netInfo-netInfo-
+   git clone [https://github.com/Hrx717/Tool-netInfo-netInfo-.git](https://github.com/Hrx717/Tool-netInfo-netInfo.git)
+   cd Tool-netInfo-netInfo
    ```
-3. Open project then main.py in any text/code editor and make sure to save the file.
-4. Open terminal and run `python main.py` command or use code runner of VS-Code.
+2. Make sure to save the file.
+3. Open terminal and run `python main.py` command or use code runner of VS-Code.
+   ```bash
+   python main.py
+   ```
