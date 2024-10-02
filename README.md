@@ -22,7 +22,7 @@
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone [https://github.com/Hrx717/Tool-netInfo-netInfo-.git](https://github.com/Hrx717/Tool-netInfo-netInfo.git)
+   git clone [https://github.com/Hrx717/Tool-netInfo-netInfo.git](https://github.com/Hrx717/Tool-netInfo-netInfo.git)
    cd Tool-netInfo-netInfo
    ```
 2. Make sure to save the file.
