@@ -20,6 +20,10 @@
 **Requirements** - Latest Python version. <br />
 **NOTE** - Since ifcfg.conf file is not supported in windows therfore, similar is created for the project.
 
-1. Clone the project in your local system
-2. Open project then main.py in any text/code editor and make sure to save the file.
-3. Open terminal and run `python main.py` command or use code runner of VS-Code.
+1. Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/Hrx717/Tool-netInfo-netInfo-.git
+   cd Tool-netInfo-netInfo-
+   ```
+3. Open project then main.py in any text/code editor and make sure to save the file.
+4. Open terminal and run `python main.py` command or use code runner of VS-Code.
