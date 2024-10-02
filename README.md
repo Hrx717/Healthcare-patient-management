@@ -5,7 +5,7 @@
 2. Splits and store the file content in config_dict dictionary.
 3. Modify some paramenters in config_dict like `ONBOOT, BOOTPROTO, and DEFROUTE`.
 4. Inditify the current IP-Address and Subnet Prefix of the device.
-5. Add new entried of IP-ADDR and PREFIX into the config_dict.
+5. Add new entries of IP-ADDR and PREFIX into the config_dict.
 6. Write update dictionary to new net_ifcfg.conf property file.
 7. Same dictionary data is also stored in net_ifcfg.json file.
 8. Test the working platform like windows or linux.
@@ -29,4 +29,20 @@
 3. Open terminal and run `python main.py` command or use code runner of VS-Code.
    ```bash
    python main.py
+   ```
+
+## Sample ifcfg.conf file
+
+   ```bash
+   TYPE="Ethernet"
+   DEVICE="ens3"
+   ONBOOT="no"
+   BOOTPROTO="dynamic"
+   DEFROUTE="yes"
+   IPADDR=12.34.56.78
+   GATEWAY=12.34.56.1
+   NETMASK=255.255.255.0
+   DNS1=108.61.10.10
+   IPV6INIT="yes"
+   IPV6_AUTOCONF="yes"
    ```
